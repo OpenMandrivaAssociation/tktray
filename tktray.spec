@@ -4,7 +4,7 @@ Version:	1.3.9
 Release:	1
 License:	BSD
 Group:		System/Libraries
-Url:		http://code.google.com/p/tktray/
+Url:		https://code.google.com/p/tktray/
 Source0:	http://tktray.googlecode.com/files/%{name}%{version}.tar.gz
 BuildRequires:	tcl-devel
 BuildRequires:	pkgconfig(tk)

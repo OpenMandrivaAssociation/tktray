@@ -6,6 +6,11 @@ License:	BSD
 Group:		System/Libraries
 Url:		https://code.google.com/p/tktray/
 Source0:	http://tktray.googlecode.com/files/%{name}%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	tcl-devel
 BuildRequires:	pkgconfig(tk)
 BuildRequires:	pkgconfig(x11)
